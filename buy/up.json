@@ -1,5 +1,5 @@
 {
-  "name": "banter",
+  "name": "buy",
   "regions": ["us-east-1"],
   "lambda": {
     "memory": 256  },

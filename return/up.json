@@ -1,5 +1,5 @@
 {
-  "name": "testapi",
+  "name": "return",
   "regions": ["us-east-1"],
   "lambda": {
     "memory": 256  },
