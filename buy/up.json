@@ -1,5 +1,5 @@
 {
-  "name": "testapi",
+  "name": "banter",
   "regions": ["us-east-1"],
   "lambda": {
     "memory": 256  },
@@ -15,7 +15,10 @@
       ] }
     ],
     "hooks": {       
-    },  
+    },
+    "stages": {
+
+    },
     "cors": {  
     "allowed_origins": ["https://myapp.com"],
     "allowed_methods": ["HEAD", "GET", "POST", "PUT", "PATCH", "DELETE"],
