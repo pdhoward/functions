@@ -1,4 +1,6 @@
-const http = require('http')
+const http =    require('http')
+const uuid =    require('uuid/v4')
+const fn =      require('./package.json')
 const { PORT = 3000 } = process.env
 
 http.createServer((req, res) => {     
