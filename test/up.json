@@ -14,8 +14,7 @@
       "dynamodb:DeleteItem"
       ] }
     ],
-    "hooks": {      
-      "clean": "rm app.js"
+    "hooks": {       
     },  
     "cors": {  
     "allowed_origins": ["https://myapp.com"],
