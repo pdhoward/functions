@@ -5,7 +5,7 @@ http.createServer((req, res) => {
   const start = Date.now()
   let obj = {}
   obj.time = `Strategic Machine Response time: ${Date.now() - start}ms`
-  obj.message = `Hello from Banter` 
+  obj.message = `Hello from BUY - I can help you purchase that` 
   res.writeHead(200, {'Content-Type': 'application/json'});
   res.write(JSON.stringify(obj));
   res.end();
