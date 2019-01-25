@@ -1,7 +1,7 @@
 # functions
 Pure functions deployed to AWS
 
-A content-first approach to addresses the very challenging process of conversation (not chat)
+A content-first approach for the very challenging process of conversation (not chat)
 
 ## Getting Started
 
