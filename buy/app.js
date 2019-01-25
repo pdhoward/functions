@@ -21,6 +21,6 @@ http.createServer((req, res) => {
   response.push(cloned)
 
   res.writeHead(200, {'Content-Type': 'application/json'});
-  res.write(JSON.stringify(obj));
+  res.write(JSON.stringify(response));
   res.end();
 }).listen(PORT)
