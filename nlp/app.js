@@ -1,6 +1,5 @@
 const http =                require('http')
 const uuid =                require('uuid/v4')
-const { NlpManager } =      require('node-nlp')
 const fn =                  require('./package.json')
 const { PORT = 3000 } = process.env
 
@@ -57,12 +56,11 @@ async function main(obj) {
       
       let intent = obj.intent 
   
-      getMessage(intent, (response) => {
-        
-        resolve(response);
-      });
+      getMessage(intent, (response) => {        
+        resolve(response)
+      })
     } catch (error) {
-      reject(error);
+      reject(error)
     }
   });
 }

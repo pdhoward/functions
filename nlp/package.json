@@ -12,7 +12,6 @@
     "url": "git+https://github.com/pdhoward/functions.git"
   },
   "dependencies": {
-    "node-nlp": "^2.4.0",
     "uuid": "^3.3.2"
   }
 }
