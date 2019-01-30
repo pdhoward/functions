@@ -54,9 +54,9 @@ async function main(obj) {
   return new Promise (function(resolve, reject) {
     try {
       
-      let intent = obj.intent 
+      let args = obj.args
   
-      getMessage(intent, (response) => {        
+      getMessage(args, (response) => {        
         resolve(response)
       })
     } catch (error) {
