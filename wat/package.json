@@ -1,0 +1,17 @@
+{
+  "name": "nlp",
+  "version": "0.0.1",
+  "description": "intelligent conversations",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdhoward/functions.git"
+  },
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
+}

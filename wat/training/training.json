@@ -1,0 +1,127 @@
+[
+    {   "intent": "goodbye", 
+        "text": "bye bye take care"
+    },
+    {   "intent": "goodbye", 
+        "text": "bye bye"
+    },
+    {   "intent": "goodbye", 
+        "text": "I must go"
+    },
+    {
+        "intent": "goodbye",
+        "text": "bye for now"
+    },
+    {
+        "intent": "goodbye",
+        "text": "see ya"
+    },
+    {
+        "intent": "goodbye",
+        "text": "ok see you later"
+    },
+    {
+        "intent": "goodbye",
+        "text": "bye"
+    },
+    {
+        "intent": "hello",
+        "text": "hello"
+    },
+    {
+        "intent": "hello",
+        "text": "hi"
+    },
+    {
+        "intent": "hello",
+        "text": "happening"
+    },
+    {
+        "intent": "hello",
+        "text": "hey"
+    },
+    {
+        "intent": "hello",
+        "text": "hey there"
+    },
+    {
+        "intent": "hello",
+        "text": "nice to meet you"
+    },
+    {
+        "intent": "hello",
+        "text": "hey hey"
+    },
+    {
+        "intent": "hello",
+        "text": "howdy"
+    },
+    {
+        "intent": "finditem",
+        "text": "looking for a book"
+    },
+    {
+        "intent": "finditem",
+        "text": "find"
+    },
+    {
+        "intent": "finditem",
+        "text": "looking for a great read"
+    },
+    {
+        "intent": "finditem",
+        "text": "what are some great reads?"
+    },
+    {
+        "intent": "finditem",
+        "text": "do you have"
+    },
+    {
+        "intent": "finditem",
+        "text": "browsing"
+    },
+    {
+        "intent": "finditem",
+        "text": "just looking"
+    },
+    {
+        "intent": "finditem",
+        "text": "searching"
+    },
+    {
+        "intent": "finditem",
+        "text": "need a book"
+    },
+    {
+        "intent": "buyitem",
+        "text": "buy it"
+    },
+    {
+        "intent": "buyitem",
+        "text": "ship it"
+    },
+    {
+        "intent": "buyitem",
+        "text": "how much"
+    },
+    {
+        "intent": "buyitem",
+        "text": "is it available"
+    },
+    {
+        "intent": "buyitem",
+        "text": "is it in the store"
+    },
+    {
+        "intent": "buyitem",
+        "text": "would like to buy"
+    },
+    {
+        "intent": "buyitem",
+        "text": "buy"
+    },
+    {
+        "intent": "buyitem",
+        "text": "awesome i'd like to buy it"
+    }
+]

@@ -5,7 +5,7 @@ const { PORT = 3000 } = process.env
 
 http.createServer((req, res) => {     
   const start = Date.now()
- 
+  
   let response = []
   let obj = {}
   obj.id = uuid()
@@ -16,7 +16,7 @@ http.createServer((req, res) => {
   response.push(cloned)
 
   obj.timeStamp = Date.now()
-  obj.message = `I find things. What would like to search for?`
+  obj.message = `Hello - I can discern your intent via AI`
   cloned = {...obj}
   response.push(cloned)
 
@@ -24,11 +24,3 @@ http.createServer((req, res) => {
   res.write(JSON.stringify(response));
   res.end();
 }).listen(PORT)
-
-/*
-// encode an object into a query string
-
-const params = {lat: 45, lng: 6, alt: 1000};
-const queryString = Object.entries(params).map(p => encodeURIComponent(p[0]) + '=' + encodeURIComponent(p[1])).join('&')
-// queryString is "lat=45&lng=6&alt=1000"
-*/
