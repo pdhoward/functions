@@ -54,7 +54,7 @@ async function main(obj) {
   return new Promise (function(resolve, reject) {
     try {
       
-      let args = obj.args
+      let args = obj.Body
   
       getMessage(args, (response) => {        
         resolve(response)
