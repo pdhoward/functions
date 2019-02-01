@@ -12,7 +12,25 @@ http.createServer((req, res) => {
   });
 
   req.on('end', async () => {
-    try {
+    //////////////////////////////
+    let response = []
+    let obj = {}
+    obj.id = uuid()
+    obj.fn = fn.name
+    obj.timeStamp = Date.now()
+    obj.message = `THis worked well at ${start}`
+    response.push(obj)
+    res.writeHead(200, {'Content-Type': 'application/json'});
+    res.write(JSON.stringify(response));
+    res.end();
+
+
+
+    //////////////////////////////
+
+    /*
+    try {   
+      
       const reply = await main(JSON.parse(conversation));
       let response = []
       let obj = {}
@@ -33,6 +51,7 @@ http.createServer((req, res) => {
       res.writeHead(500, {'Content-Type': 'application/json'});
       res.write(JSON.stringify(error));
     }
+    */
     res.end();
   });
   
